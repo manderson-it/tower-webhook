@@ -2,4 +2,5 @@
 - name: Dummy
   hosts: localhost
   tasks:
-  - ping:
+  - name: Ansible ping
+    ping:
